@@ -29,7 +29,7 @@ function CartOverview() {
   }, [totalCartQuantity]);
   if (!totalCartQuantity) return null;
   return (
-    <div className="text-clamp-sm flex items-center justify-between bg-stone-800 px-4 py-4 uppercase text-stone-200 sm:px-6 md:text-base">
+    <div className="text-clamp-sm flex items-center justify-between bg-stone-800 px-6 py-4 uppercase text-stone-200 sm:px-6 md:text-base">
       <p className={`space-x-4 font-semibold text-stone-300 sm:space-x-6`}>
         <span
           className={`${isHighlighted ? "text-md font-bold text-yellow-500" : ""}`}
